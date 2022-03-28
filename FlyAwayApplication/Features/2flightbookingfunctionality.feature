@@ -12,5 +12,5 @@ Then he should be able to see " FLYAWAY - BOOKING CONFIRMATION " message
 
 Examples:
 
-|email									|Password				|
-|vburugadda12@cisco.com	|BhanuBK3				|
+|email									|Password			  	|
+|vburugad@cisco.com   	|BhanuBK@99				|
