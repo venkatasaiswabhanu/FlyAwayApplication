@@ -10,7 +10,7 @@
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="1"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.flyaway.testscripts.TestRunner -->
     </classes>

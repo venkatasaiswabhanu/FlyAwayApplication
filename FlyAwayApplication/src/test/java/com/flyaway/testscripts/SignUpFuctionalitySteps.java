@@ -17,7 +17,7 @@ public class SignUpFuctionalitySteps extends Driver{
 			e.printStackTrace();
 		}
 		landingPage.clickLoginSignup();
-
+		System.out.println("User Clicked on Login/Signup button");
 	}
 
 	@When("he clicks on Not a member? Signup button")
@@ -29,6 +29,7 @@ public class SignUpFuctionalitySteps extends Driver{
 			e.printStackTrace();
 		}
 		landingPage.clickSignUp();
+		System.out.println("User clicked on Signup button");
 	}
 
 	@When("pass Email id as {string},Password as {string},Confirm Password as {string}, Name as {string}, adress as {string} and city as {string}")
@@ -46,7 +47,7 @@ public class SignUpFuctionalitySteps extends Driver{
 		signUpPage.name(string4);
 		signUpPage.address(string5);
 		signUpPage.city(string6);
-		
+		System.out.println("User successfully entered mandatory");
 
 	}
 
@@ -59,7 +60,7 @@ public class SignUpFuctionalitySteps extends Driver{
 			e.printStackTrace();
 		}
 		signUpPage.clickSignUpbtn();
-		
+		System.out.println("User Clicked on Signup Button");
 
 	}
 
@@ -74,7 +75,7 @@ public class SignUpFuctionalitySteps extends Driver{
 		String expectedErrMsg = "Login to continue checking flights";
 		String actualErrMsg = signUpPage.getTxt();
 		Assert.assertEquals(actualErrMsg, expectedErrMsg);
-
+		System.out.println("User Successfully Sign up");
 	}
 
 

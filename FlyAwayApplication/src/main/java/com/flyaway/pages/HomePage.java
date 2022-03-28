@@ -11,7 +11,16 @@ public class HomePage {
 	@FindBy(linkText = "Home")
 	private WebElement home;
 	
-	@FindBy(css = "body > table > tbody > tr:nth-child(6) > td:nth-child(6) > a")
+	@FindBy(xpath = "(//option[contains(@value,'2')])[1]")
+	private WebElement source;
+	
+	@FindBy(xpath = "(//option[contains(@value,'1')])[2]")
+	private WebElement destination;
+	
+	@FindBy(css = "body > form > table > tbody > tr > td:nth-child(3) > button")
+	private WebElement submit;
+	
+	@FindBy(linkText = "Book Flight")
 	private WebElement bookFlight;
 	
 	public HomePage(WebDriver driver) {
@@ -23,6 +32,16 @@ public class HomePage {
 		home.click();
 	}
 	
+	public void clickSource() {
+		source.click();
+	}
+	
+	public void clickDestination() {
+		destination.click();
+	}
+	public void clickSubmit() {
+		submit.click();
+	}
 	public void clickBookFlight() {
 		bookFlight.click();
 	}
