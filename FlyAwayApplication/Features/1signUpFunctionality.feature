@@ -10,5 +10,5 @@ Then He should be able to see "Login to continue checking flights" message
 
 Examples:
 
-|email									|Password				|Name						|Address						|City					|
-|vburugadda12@cisco.com	|BhanuBK3			|Sai BKV				|Jangareddygudem		|Lakkavaram		|
+|email									|Password				|Name					               	|Address						|City					|
+|vburugad@cisco.com	    |BhanuBK@99			|Venkat Sai Swabhanu BK				|Ramalayam Street		|Lakkavaram		|
