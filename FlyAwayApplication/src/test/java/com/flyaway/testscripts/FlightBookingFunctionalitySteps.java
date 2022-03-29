@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class flightbookingfunctionalitySteps extends Driver {
+public class FlightBookingFunctionalitySteps extends Driver {
 	
 	
 	@Given("A user click on Login\\/SignUp link text in Landing page of flyaway application")
